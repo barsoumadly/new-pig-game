@@ -163,5 +163,15 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #2980b9;
+}
+.player--winner .score {
+  color: #2980b9;
+}
+.player--winner .current {
+  background-color: #2980b9;
+}
+
+.hidden {
+  display: none;
 }
