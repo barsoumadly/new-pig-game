@@ -67,6 +67,7 @@ btnHold.addEventListener('click', function () {
   if (playing) {
     const scoreEl = document.getElementById(`score--${activePlayer}`);
     const activePlayerEl = document.querySelector(`.player--${activePlayer}`);
+    diceEl.classList.add('hidden');
 
     // Setting the total score
     scores[activePlayer] += currentScore;
